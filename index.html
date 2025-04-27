@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guardian Tales Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- Header / Navbar -->
+<header class="header">
+  <div class="container header-content">
+    <div class="logo">
+      <img src="https://image.playkakaogames.com/gt-web/live/images/pc/logo_guardian.png" alt="logo">
+    </div>
+    <nav class="nav">
+      <a href="/news.html" class="nav-link">News</a>
+      <div class="dropdown">
+        <a href="#community" class="nav-link">Community</a>
+        <div class="dropdown-content">
+          <a href="https://www.lurkit.com/company/kakao-games-partners-program">Partners</a>
+          <a href="https://www.facebook.com/GuardianTalesAsia">Facebook</a>
+          <a href="https://x.com/GuardianTalesEN">Twitter</a>
+          <a href="https://www.instagram.com/guardiantales_official/">Instagram</a>
+          <a href="https://www.youtube.com/channel/UCoxTZ3AhKclE7GUmTNE1HrA/featured">YouTube</a>
+          <a href="https://discord.com/invite/guardiantales">Discord</a>
+        </div>
+      </div>
+      <a href="https://coupon.kakaogames.com/guardiantales/en/" class="nav-link">Coupon</a>
+      <a href="https://www.twitch.tv/playkakaogames" class="nav-link">Stream</a>
+      <a href="https://kakaogames.oqupie.com/portal/2776" class="nav-link">Support</a>
+    </nav>
+    <div class="store-buttons">
+      <a href="https://apps.apple.com/id/app/guardian-tales/id1485526957?l=id" target="_blank">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" class="app-store-badge" />
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.kakaogames.gdts" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" class="google-play-badge" />
+      </a>
+    </div>
+    <button id="menu-toggle" class="menu-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="/assets/G-Star PV For Guardian Tales.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="hero-content">
+    <h2>A LINK TO CLASSIC ADVENTURE</h2>
+    <img src="/assets/Guardian_Tales_Logo.png" alt="Guardian Tales Logo" class="hero-logo">
+    <div class="hero-buttons">
+      <a href="https://apps.apple.com/id/app/guardian-tales/id1485526957" target="_blank">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" class="app-store-badge" />
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.kakaogames.gdts" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" class="google-play-badge" />
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Announcements Section -->
+<main class="announcements">
+  <div class="container grid">
+    <div class="card">
+      <img src="https://image.playkakaogames.com/cms/live/news/3/96d229d5018de3e3fa63eacdcc37f50c.jpg" alt="Announcement">
+      <div class="card-content">
+        <p class="card-date">ANNOUNCEMENTS | APR 22, 2025</p>
+        <h3>[DEVELOPER'S LETTER] DIRECTOR ROBIN'S 10TH...</h3>
+        <p>Hello, this is Director Robin. This letter is to share details regarding the upcoming major update...</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://image.playkakaogames.com/cms/live/news/3/48fcb6c3373ed01915fe85742084eb4f.jpg" alt="Announcement">
+      <div class="card-content">
+        <p class="card-date">ANNOUNCEMENTS | APR 17, 2025</p>
+        <h3>CHANGES TO THE ACCESSORY PACKAGE FO...</h3>
+        <p>Greetings Guardians. We would like to inform you that the currently available accessory package will be discontinued...</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://image.playkakaogames.com/cms/live/news/3/96d229d5018de3e3fa63eacdcc37f50c.jpg" alt="Announcement">
+      <div class="card-content">
+        <p class="card-date">ANNOUNCEMENTS | APR 15, 2025</p>
+        <h3>HOTFIX: RANKING & ABILITY DISPLAY ISSUES...</h3>
+        <p>Greetings Guardians. We would like to inform you that the following two issues have been resolved...</p>
+      </div>
+    </div>
+  </div>
+  <div class="center-button">
+    <button class="read-more">READ MORE</button>
+  </div>
+</main>
+
+<!-- Characters Section -->
+<section class="characters">
+  <img src="https://image.playkakaogames.com/gt-web/live/images/pc/bg_character_200612.png" class="characters-bg" alt="Background">
+  <div class="characters-foreground">
+    <img src="https://image.playkakaogames.com/gt-web/live/images/pc/img_character.png" id="character-img" alt="Guardian Tales Characters">
+  </div>
+</section>
+
+<!-- Download Section -->
+<section class="download-section">
+  <div class="download-left">
+    <img src="/assets/Icon GT.png" alt="Character Icon" class="character-icon">
+    <p class="download-text">DOWNLOAD NOW AND BECOME A</p>
+    <h2 class="legend-title">LEGEND</h2>
+    <div class="store-buttons">
+      <a href="https://apps.apple.com/id/app/guardian-tales/id1485526957" target="_blank">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" class="app-store-badge" />
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.kakaogames.gdts" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" class="google-play-badge" />
+      </a>
+    </div>
+  </div>
+  <div class="download-right">
+    <img src="https://image.playkakaogames.com/gt-web/live/images/pc/img_appstore.png" alt="Knight Image" class="knight-image">
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="social-icons">
+    <a href="#"><img src="/assets/facebook.png" alt="Facebook"></a>
+    <a href="#"><img src="/assets/X.jpg" alt="X/Twitter"></a>
+    <a href="#"><img src="/assets/Instagram_logo.png" alt="Instagram"></a>
+    <a href="#"><img src="/assets/Youtube.png" alt="YouTube"></a>
+    <a href="#"><img src="/assets/discord.png" alt="Discord"></a>
+  </div>
+  <div class="footer-links">
+    <a href="#">Terms of Service</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Coupon</a>
+    <a href="#">Support</a>
+    <a href="#">Fan Kit</a>
+    <a href="#">Cookie Policy</a>
+  </div>
+  <div class="footer-bottom">
+    <p>Cloned by Gusti Rayhananda Maulana Muhammad.</p>
+    <div class="footer-logos">
+      <img src="https://akamai-webcdn.kgstatic.net/gt/images/pc/logo_kakaogames.png" alt="Kakao Games">
+      <img src="https://akamai-webcdn.kgstatic.net/gt/images/pc/logo_kong.png" alt="Kong Studios">
+    </div>
+  </div>
+</footer>
